@@ -1,0 +1,7 @@
+## Longest-Serving Employees
+
+The most loyal employee at Next Gen Corp is David Moore, who has been with the company for over a decade, marking an impressive milestone of dedication and service. Close behind is John Johnson, who is just days away from reaching his 10-year anniversary. Interestingly, both David and John come from the Sales Department, which has produced three out of the five longest-serving employees.
+
+Only one employee each represents the HR and Marketing departments among the top five. However, it’s notable that no one from the Engineering Department appears on the list. This could indicate higher turnover rates in engineering, potentially due to burnout or lower compensation compared to other departments.
+
+Overall, the data highlights strong employee retention in Sales, while also pointing to possible challenges in maintaining long-term staff in technical roles.
