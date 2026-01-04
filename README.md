@@ -109,6 +109,7 @@ LEFT JOIN (
 GROUP BY d.department_name
 ORDER BY average_performance DESC;
 ```
+
 This query analyzes the relationship between employee performance and compensation by calculating average performance scores and average salaries at the department level. Employee-level averages are first computed using subqueries to avoid duplication, then aggregated by department. LEFT JOINs ensure all departments are included, even if salary or performance records are missing, enabling a fair cross-department comparison of pay versus performance.
 
 ## Executive Summary
