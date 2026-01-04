@@ -1,4 +1,11 @@
 # Next-Gen-Employee-Analysis
+![SQL](https://img.shields.io/badge/Tool-SQL-blue?logo=postgresql) 
+![PostgreSQL](https://img.shields.io/badge/Tool-PostgreSQL-lightblue?logo=postgresql)
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow?logo=powerbi)
+![Power BI Service](https://img.shields.io/badge/Platform-Power%20BI%20Service-blue?logo=powerbi)
+![Neon](https://img.shields.io/badge/Platform-Neon-purple)
+![Last Commit](https://img.shields.io/github/last-commit/cephard/NovaMed-Solutions)
+
 ## Project Background
 NextGen Corp. is a growing technology company focused on developing innovative solutions in the software
 and hardware spaces. The company prides itself on attracting top talent and maintaining high employee
@@ -29,14 +36,10 @@ The companies main database structure as seen below consists of the following ta
 - **Turnover Table:** Contains data on employees who left the company, including the reason for leaving.
 - **Salaries Table:** Provides salary data, including historical salary changes for each employee.
 
-## Key Terms Used in the Project
-- **Employee Retention:** The ability of a company to retain its employees over a long period. This is critical for long-term success and reducing turnover costs.
-- **Employee Turnover:** The rate at which employees leave the company. High turnover can be a sign of employee dissatisfaction or organizational issues.
-- **Performance Score:** A numerical score reflecting an employee’s performance. It is typically evaluated through regular performance reviews and could range from 1 to 5, with 5 being excellent.
-- **Salary:** The compensation an employee receives for their work. This includes base pay and may vary based on factors such as performance, role, or tenure.
-- **Attendance Rate: The percentage of days an employee is present at work compared to the total number of working days. It can indicate engagement or potential attendance issues.
-- **Turnover Rate:** A metric that measures the percentage of employees who leave the company during a specific period. It can be calculated by dividing the number of employees who left by the total number of employees.
-- **Data-Driven Insights:** Insights derived from analyzing large datasets. These insights can inform business decisions, such as improving employee retention strategies or ensuring fair compensation.
+## Technical Summary
+
+## Entity Relationship Diagram
+<img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/erd.png" alt="Entity Relationship Diagram" width="100%"/>
 
 ## Executive Summary
 We learn that out of the total *60* employees, Next Gen has had *28* employees leave over a span of ... years. The dashboard highlights **Sales** as the department with the highest number of employees (*23*) scoring above *3.5* in their performance analysis.  
@@ -45,11 +48,11 @@ The company has spent a total of *$4.85M* on payroll, and the highest earning em
 
 The top 5 longest-serving employees represent tenure in the company, regardless of whether they are still active. With this approach, Next Gen can understand employee turnover in a more holistic way. Interestingly, *3* out of the *5* top-serving employees are from **Sales**, which is also the department with the most poor performers.  
 
-Looking at salaries by job title, *4 out of the 5* top roles have an average salary of $80K+, suggesting that the majority of employees at Next Gen can be considered high earners. **Marketing Specialists** is the only job title with an average salary of $77.86K.  
+Looking at salaries by job title, *4 out of the 5* top roles have an average salary of *$80K+*, suggesting that the majority of employees at Next Gen can be considered high earners. **Marketing Specialists** is the only job title with an average salary of *$77.86K*.  
 
 The **Marketing department** has the highest turnover rate, with data showing that *92.86%* of employees have left. This phenomenon can be investigated further to explore the correlation between remuneration and turnover.  
 
-A correlation analysis between salary and performance shows an interesting trend. On average, employees from high-performing departments (**Marketing 4.13/5 and Engineering 4.10/5**) earned lower salaries compared to employees in **HR (4.05/5)** and **Sales (4.0/5)**. Overall, the average salary by department was above **$80K**, indicating that, despite some differences, most employees at Next Gen are considered high earners.
+A correlation analysis between salary and performance shows an interesting trend. On average, employees from high-performing departments Marketing *4.13/5* and Engineering *4.10/5* earned lower salaries compared to employees in HR *4.05/5* and Sales *4.0/5*. Overall, the average salary by department was above *$80K*, indicating that, despite some differences, most employees at Next Gen are considered high earners.
 
 The main turnover reasons reported were **Career Progression, Finding Another Job, Career Growth, and Personal Reasons**. However, this data should be treated with caution, as the broad nature of these reasons might hide nuances that employees were uncomfortable declaring.
 
@@ -57,8 +60,3 @@ The main turnover reasons reported were **Career Progression, Finding Another Jo
 [An interactive live dashboard on can be accessed here](https://app.powerbi.com/view?r=eyJrIjoiOTNkZTE0NDEtMTU2OC00OTQzLWFhYjktMTIzMmU4ODkyM2MxIiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9).
 
 <img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/Next%20gen%20Dashboard%20.png" alt="Next Gen Dashboard" width="100%"/>
-
-## Entity Relationship Diagram
-<img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/erd.png" alt="Entity Relationship Diagram" width="100%"/>
-
-
