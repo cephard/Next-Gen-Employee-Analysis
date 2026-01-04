@@ -51,6 +51,8 @@ This approach facilitates robust data management, simplifies updates, and improv
 <img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/erd.png" alt="Entity Relationship Diagram" width="100%"/>
 
 ## Sample SQL Queries
+### What is the turnover rate for each department?
+
 ```sql
 SELECT
 	d.department_name,
@@ -64,6 +66,50 @@ LEFT JOIN turnover t
 GROUP BY d.department_name
 ORDER BY turnover_rate DESC;
 ```
+This query calculates the percentage of employees who have left each department by dividing the number of distinct employees recorded in the turnover table by the total number of distinct employees in that department. It uses LEFT JOINs to ensure departments with no recorded turnover are still included, and formats the result as a percentage for easy comparison across departments.
+
+### Which department has the most employees with a performance of 5.0 / below 3.5?
+
+```sql
+SELECT department_name, score_5, below_3_5
+FROM (
+    SELECT 
+        e.department_id,
+		d.department_name, 
+        COUNT(DISTINCT CASE WHEN p.performance_score = 5.0 THEN e.employee_id END) AS score_5,
+        COUNT(DISTINCT CASE WHEN p.performance_score < 3.5 THEN e.employee_id END) AS below_3_5
+    FROM employee e
+    JOIN performance p ON e.employee_id = p.employee_id
+	JOIN department d ON d.department_id = e.department_id
+    GROUP BY e.department_id,d.department_name
+) AS dept_scores
+ORDER BY score_5 DESC, below_3_5 ASC
+LIMIT 1;
+```
+This query identifies the department with the strongest and weakest performance extremes by counting how many distinct employees achieved a perfect performance score of 5.0 and how many scored below 3.5. Conditional aggregation is used to calculate both metrics in a single query, allowing comparison of high and low performers within each department. The results are ordered to highlight the department with the most top performers while minimizing the number of low performers.
+
+### How does performance correlate with salary across departments?
+
+```sql
+SELECT
+    d.department_name,
+    ROUND(AVG(emp_perf.avg_score), 2) AS average_performance,
+    ROUND(AVG(emp_sal.avg_salary), 2) AS average_salary
+FROM department d
+LEFT JOIN (
+    SELECT employee_id, department_id, AVG(performance_score) AS avg_score
+    FROM performance
+    GROUP BY employee_id, department_id
+) AS emp_perf ON d.department_id = emp_perf.department_id
+LEFT JOIN (
+    SELECT employee_id, department_id, AVG(salary_amount) AS avg_salary
+    FROM salary
+    GROUP BY employee_id, department_id
+) AS emp_sal ON d.department_id = emp_sal.department_id
+GROUP BY d.department_name
+ORDER BY average_performance DESC;
+```
+This query analyzes the relationship between employee performance and compensation by calculating average performance scores and average salaries at the department level. Employee-level averages are first computed using subqueries to avoid duplication, then aggregated by department. LEFT JOINs ensure all departments are included, even if salary or performance records are missing, enabling a fair cross-department comparison of pay versus performance.
 
 ## Executive Summary
 We learn that out of the total *60* employees, Next Gen has had *28* employees leave over a span of ... years. The dashboard highlights **Sales** as the department with the highest number of employees (*23*) scoring above *3.5* in their performance analysis.  
