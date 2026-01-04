@@ -20,7 +20,7 @@ Insights and recommendations are provided on the following key areas:
 The SQL queries used to inspect and clean the data for this analysis can be found here [link]().
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link]().
 
-# Data Structure & Initial Checks
+## Data Structure & Initial Checks
 The companies main database structure as seen below consists of the following tables:
 - **Employees Table:** Contains essential employee details like name, job title, hire date, salary, performance score, attendance rate, and department affiliation.
 - **Departments Table:** Contains the list of departmentswithin NextGen Corp. (e.g., Engineering, Sales, HR, Marketing).
@@ -28,6 +28,15 @@ The companies main database structure as seen below consists of the following ta
 - **Attendance Table:** Tracks attendance records for employees, including whether they were present or absent
 - **Turnover Table:** Contains data on employees who left the company, including the reason for leaving.
 - **Salaries Table:** Provides salary data, including historical salary changes for each employee.
+
+## Key Terms Used in the Project
+- Employee Retention: The ability of a company to retain its employees over a long period. This is critical for long-term success and reducing turnover costs.
+- Employee Turnover: The rate at which employees leave the company. High turnover can be a sign of employee dissatisfaction or organizational issues.
+- Performance Score: A numerical score reflecting an employee’s performance. It is typically evaluated through regular performance reviews and could range from 1 to 5, with 5 being excellent.
+- Salary: The compensation an employee receives for their work. This includes base pay and may vary based on factors such as performance, role, or tenure.
+- Attendance Rate: The percentage of days an employee is present at work compared to the total number of working days. It can indicate engagement or potential attendance issues.
+- Turnover Rate: A metric that measures the percentage of employees who leave the company during a specific period. It can be calculated by dividing the number of employees who left by the total number of employees.
+- Data-Driven Insights: Insights derived from analyzing large datasets. These insights can inform business decisions, such as improving employee retention strategies or ensuring fair compensation.
 
   
 [Entity Relationship Diagram here]
