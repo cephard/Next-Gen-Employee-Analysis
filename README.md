@@ -87,4 +87,84 @@ The main turnover reasons reported were **Career Progression, Finding Another Jo
 - 3 of top 5 are from Sales; 1 from HR, 1 from Marketing.
 - No engineers on the list → possible burnout or low pay issues.
 
+### Department Turnover rate
+<p align="center">
+  <img 
+    src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/Department%20Turnover%20rate.png" 
+    alt="Longest Serving Employee" 
+    width="50%" 
+  />
+</p>
 
+- Marketing shows the highest turnover at 92.86%.
+- 66.67% of Engineering employees have left.
+- Sales and HR have the lowest turnover (<30%).
+
+### Employees at risk of leaving
+<p align="center">
+  <img 
+    src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/Employees%20At%20risk.png" 
+    alt="Longest Serving Employee" 
+    width="50%" 
+  />
+</p>
+
+- Most of the lowest-performing employees are from the Sales and HR departments, with the majority in Sales.
+- This suggests that the Sales department’s commission-based structure may be impacting overall performance.
+- Some of the HR underperformers appear to hold managerial roles, where limited oversight might influence performance outcomes.
+
+### Main reason for turnover
+<p align="center">
+  <img 
+    src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/Turnover%20reasons.png" 
+    alt="Longest Serving Employee" 
+    width="50%" 
+  />
+</p>
+
+- It is 39.29% most likely for turnover to be personal reasons.
+- Its also 25% likely for an employee to find another job.
+- Both career growth and Retire have a 17.86% contribution to turnover.
+
+## Performance Analysis
+### Total employees that left
+- 46.67% of employees have left the company, in 2024 (15) and 2025 (13), mostly due to personal reasons, and only 25% leaving for other jobs rather than career growth.
+
+### score of 5.0 / below 3.5?
+- In the entire company tenure, its has only happened 9 times that a colleague got a 5/5 performance score, while 45 times employees performed at 3.5/5 and below.
+- Out of the 9 times, 6 of these emerged from sales department.
+
+### Department Performance#
+<p align="center">
+  <img 
+    src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/Department%20performance.png" 
+    alt="Longest Serving Employee" 
+    width="50%" 
+  />
+  
+- All departments have a performance average of above 4.0+.
+
+## Salary Analysis
+### Total Salary Expense
+- 4.85M Is the total salary Next Gen Has Spent on employee compensation based on 2024-05-03 salary compensations.
+
+### Salary By Job Title
+- Majority of the departments have a compensation of 80K and above, only Marketing specialists' compensation is 77.86k.
+
+### Employees Earning More than 80K
+- 26 Are high earners Majority being sales representatives.
+
+### Department to salary correlation
+- Departments with the highest salaries are showing lower performance.
+- Marketing & Engineering: Performance 4.10–4.13, Salary $80k → solid performance with moderate pay.
+- HR: Highest Salary $83k, Performance 4.05 → high pay, slightly lower performance.
+- Sales: Salary $82.86k, Performance 4.0 → highest pay among low performers.
+
+## Insight Deep Dive
+- Sales emerged as the department with most employees getting a perfect average performance score of 5.0. However, this number signposted to the 23 employees getting an average of 3.5 and below is alarming. This shows that the best department is also the poorest in performance.
+- It is shocking that sales managers receive 80k while they colleagues under their management, the sales representatives are earning an average of 84.29K.
+- This nuance might be a possibility that sales representatives are getting commissions and incentives.
+- HR tends to reward the employees from HR favourably than any other department this explains why HR has the lowest turnover rate of all departments.
+- Marketing specialists being the only departments with an average salary below 77.86k correlates with the 92.86 turnover rate in this department, furthermore this is the top performing department.
+
+# Recommendations
