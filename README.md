@@ -29,14 +29,23 @@ An interactive PowerBI dashboard used to report and explore the analysis can be 
 
 ## Data Structure & Initial Checks
 The companies main database structure as seen below consists of the following tables:
-- **Employees Table:** Contains essential employee details like name, job title, hire date, salary, performance score, attendance rate, and department affiliation.
-- **Departments Table:** Contains the list of departmentswithin NextGen Corp. (e.g., Engineering, Sales, HR, Marketing).
-- **Performance Table:** Tracks monthly performance scores of employees, allowing you to analyze performance trends over time.
-- **Attendance Table:** Tracks attendance records for employees, including whether they were present or absent
-- **Turnover Table:** Contains data on employees who left the company, including the reason for leaving.
-- **Salaries Table:** Provides salary data, including historical salary changes for each employee.
+
+| **Table Name** | **Description** |
+|-------------|------------------|
+| **Employees Table:**     | Contains essential employee details like name, job title, hire date, salary, performance score, attendance rate, and department affiliation. |
+| **Departments Table:**   | Contains the list of departmentswithin NextGen Corp. (e.g., Engineering, Sales, HR, Marketing). |
+| **Performance Table:**   | Tracks monthly performance scores of employees, allowing you to analyze performance trends over time. |
+| **Attendance Table:**    | Tracks attendance records for employees, including whether they were present or absent |
+| **Turnover Table:**      | Contains data on employees who left the company, including the reason for leaving. |
+| **Salaries Table:**      | Provides salary data, including historical salary changes for each employee. |
 
 ## Technical Summary
+The database schema employs one-to-many relationships between the tables using primary and foreign keys to ensure data integrity and normalization. For instance, the `department_id` is a unique primary key in the `department` table but appears as a foreign key in multiple records within the `performance`, `employee`, `salary`, and `turnover` tables. This design adheres to the principles of Third Normal Form (3NF) by:
+- Eliminating data redundancy through separation of entities.
+- Preventing transitive dependencies by ensuring that non-key attributes depend only on the primary key.
+- Enhancing data quality and source profiling by maintaining consistent references across related tables.
+- Supporting scalability and efficient querying by structuring data around well-defined relationships.
+This approach facilitates robust data management, simplifies updates, and improves analytical accuracy across employee-related metrics such as attendance, performance, compensation, and turnover.
 
 ## Entity Relationship Diagram
 <img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/erd.png" alt="Entity Relationship Diagram" width="100%"/>
