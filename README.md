@@ -168,3 +168,25 @@ The main turnover reasons reported were **Career Progression, Finding Another Jo
 - Marketing specialists being the only departments with an average salary below 77.86k correlates with the 92.86 turnover rate in this department, furthermore this is the top performing department.
 
 # Recommendations
+## Employee Retention Recommendations
+- Enhance Onboarding and Engagement Programs: Introduce mentorships and career development initiatives, along with regular employee satisfaction surveys to gather feedback.
+- Conduct Exit Interviews: Utilize exit interviews to understand key pain points beyond “personal” such as compensation, management issues, and workload concerns.
+- Promote Internal Mobility and Career Advancement: Offer regular training sessions, eLearning opportunities, and job shadowing to prepare current employees for promotions.
+- Identify Early Warning Signs: Look for indicators beyond low performance and attendance, such as colleagues' willingness to accept temporary promotions or participate in internal social gatherings, to gauge engagement levels.
+
+## Performance Recommendations
+- Performance-Based Recognition Programs: Recognize and reward employees for their hard work with incentives such as in-store discounts, "Department of the Quarter" awards, and "Employee of the Month" acknowledgments.#
+- Targeted Training: Implement customized training programs tailored to the specific needs of each department.
+- Data-Driven Performance Tracking: Utilize dashboards and reports to visualize performance data, enabling HR teams to easily identify the lowest-performing departments.
+- Balanced Workload Across Teams: Encourage regular, realtime work management across teams to ensure that workloads are distributed proportionately among employees.
+  
+## Salary & Compensation Recommendations
+- Standardize Pay Structures: Ensure that base salaries are consistent across similar roles and pay grades.
+- Introduce a Pay-forPerformance Model: Reward high performers, such as marketing specialists, with bonuses instead of incorporating these rewards into their monthly base salary.
+- Regular Salary Reviews: Conduct annual compensation reviews to align with the median national wage and adjust for the cost of living accordingly.
+- Address Pay Disparities Across Departments: Adjust salaries in the marketing department to align with the company-wide base salary of $80,000.
+- Encourage Employee Unions: Support the formation of selfgoverned employee unions that can advocate foremployees anonymously, fostering transparency, trust, and long-term engagement.
+
+# Caveats
+- The salary dataset only projects for payroll date 2024-05-03 and should be treated with caution.
+- Data is majorly dependant on quotative analysis and so the exact personal reasons for turnover have not captured the nuances of the actual turnover reason.
