@@ -39,7 +39,15 @@ The companies main database structure as seen below consists of the following ta
 - **Turnover Rate:** A metric that measures the percentage of employees who leave the company during a specific period. It can be calculated by dividing the number of employees who left by the total number of employees.
 - **Data-Driven Insights:** Insights derived from analyzing large datasets. These insights can inform business decisions, such as improving employee retention strategies or ensuring fair compensation.
 
+## Executive Summary
+We learn that out of the total *60* employees, Next Gen has had *28* employees leave over a span of ... years. The dashboard also highlights **Sales** as the department with the highest number of employees (*23*) scoring above *3.5* in their performance analysis. The company has spent a total of *$4.85M* on payroll, and the highest earning employees are *26* (**in this case, salaries of $80K and above**). The *9* top performers represent the number of times employees achieved a perfect *5/5* score, and the *45* poor performers also represent instances of low scores. Therefore, these numbers might be higher than the actual number of employees who attained a perfect score or scored *3.5* or below. The top 5 longest-serving employees represent the employees’ tenure in the company, regardless of whether they are still active. With this approach, Next Gen can understand employee turnover in a more holistic way. That being said, *3* out of the *5* top-serving employees are from **Sales**, which is also the department with the most poor performers.
+
+## Dashboard
+[An interactive live dashboard on can be accessed here](https://app.powerbi.com/view?r=eyJrIjoiOTNkZTE0NDEtMTU2OC00OTQzLWFhYjktMTIzMmU4ODkyM2MxIiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9).
+<img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/Next%20gen%20Dashboard%20.png" alt="Next Gen Dashboard" width="100%"/>
+
+
 ## Entity Relationship Diagram
 <img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/erd.png" alt="Entity Relationship Diagram" width="100%"/>
 
-## Executive Summary
+
