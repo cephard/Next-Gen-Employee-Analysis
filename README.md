@@ -38,8 +38,7 @@ The companies main database structure as seen below consists of the following ta
 - **Turnover Rate:** A metric that measures the percentage of employees who leave the company during a specific period. It can be calculated by dividing the number of employees who left by the total number of employees.
 - **Data-Driven Insights:** Insights derived from analyzing large datasets. These insights can inform business decisions, such as improving employee retention strategies or ensuring fair compensation.
 
-  
-[Entity Relationship Diagram here]
-
+## Entity Relationship Diagram
+<img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/erd.png" alt="Entity Relationship Diagram" width="100%"/>
 
 ## Executive Summary
