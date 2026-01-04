@@ -18,7 +18,8 @@ Insights and recommendations are provided on the following key areas:
 - **Salary Analysis**  
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link](https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/Next%20Gen%20SQL%20Queries.sql).
-An interactive PowerBI dashboard used to report and explore sales trends can be found here [link]().
+An interactive PowerBI dashboard used to report and explore the analysis can be found here [link](https://app.powerbi.com/view?r=eyJrIjoiOTNkZTE0NDEtMTU2OC00OTQzLWFhYjktMTIzMmU4ODkyM2MxIiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9).
+
 
 ## Data Structure & Initial Checks
 The companies main database structure as seen below consists of the following tables:
