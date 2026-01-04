@@ -69,3 +69,22 @@ The main turnover reasons reported were **Career Progression, Finding Another Jo
 [An interactive live dashboard on can be accessed here](https://app.powerbi.com/view?r=eyJrIjoiOTNkZTE0NDEtMTU2OC00OTQzLWFhYjktMTIzMmU4ODkyM2MxIiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9).
 
 <img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/Next%20gen%20Dashboard%20.png" alt="Next Gen Dashboard" width="100%"/>
+
+# Insights Deep Dive
+## Employee Retention Analysis
+
+### Longest serving employees
+<p align="center">
+  <img 
+    src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/Longest%20Serving%20Employees.png" 
+    alt="Longest Serving Employee" 
+    width="50%" 
+  />
+</p>
+
+- David Moore – most loyal employee, over 10 years at Next Gen Corp.
+- John Johnson – close to reaching the decade mark.
+- 3 of top 5 are from Sales; 1 from HR, 1 from Marketing.
+- No engineers on the list → possible burnout or low pay issues.
+
+
