@@ -50,6 +50,21 @@ This approach facilitates robust data management, simplifies updates, and improv
 ## Entity Relationship Diagram
 <img src="https://github.com/cephard/Next-Gen-Employee-Analysis/blob/main/charts/erd.png" alt="Entity Relationship Diagram" width="100%"/>
 
+## Sample SQL Queries
+```sql
+SELECT
+	d.department_name,
+	CONCAT(ROUND(COUNT(DISTINCT t.employee_id) * 100.0 / COUNT(DISTINCT e.employee_id), 2), '%')
+	AS turnover_rate
+FROM employee e
+LEFT JOIN department d
+	ON e.department_id = d.department_id
+LEFT JOIN turnover t 
+	ON e.employee_id = t.employee_id
+GROUP BY d.department_name
+ORDER BY turnover_rate DESC;
+```
+
 ## Executive Summary
 We learn that out of the total *60* employees, Next Gen has had *28* employees leave over a span of ... years. The dashboard highlights **Sales** as the department with the highest number of employees (*23*) scoring above *3.5* in their performance analysis.  
 
