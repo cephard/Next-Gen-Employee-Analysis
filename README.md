@@ -49,7 +49,7 @@ Looking at salaries by job title, *4 out of the 5* top roles have an average sal
 
 The **Marketing department** has the highest turnover rate, with data showing that *92.86%* of employees have left. This phenomenon can be investigated further to explore the correlation between remuneration and turnover.  
 
-A correlation analysis between salary and performance shows that, on average, employees from high-performing departments (**Marketing 4.13/5 and Engineering 4.10/5**) earned ...  
+A correlation analysis between salary and performance shows an interesting trend. On average, employees from high-performing departments (**Marketing 4.13/5 and Engineering 4.10/5**) earned lower salaries compared to employees in **HR (4.05/5)** and **Sales (4.0/5)**. Overall, the average salary by department was above **$80K**, indicating that, despite some differences, most employees at Next Gen are considered high earners.
 
 The main turnover reasons reported were **Career Progression, Finding Another Job, Career Growth, and Personal Reasons**. However, this data should be treated with caution, as the broad nature of these reasons might hide nuances that employees were uncomfortable declaring.
 
